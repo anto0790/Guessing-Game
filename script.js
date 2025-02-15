@@ -4,6 +4,10 @@ let numberRandom=Math.floor(Math.random()*10)+1;
 let entryNumber=document.getElementById('entryNumber');
 let message=document.getElementById('message');
 
+/**
+ * This function check that the result is correct.
+ * @returns True if and only if the entered number is equal to the random number.
+ */
 function checkResult(){
     let number= parseInt(entryNumber.value);
 
